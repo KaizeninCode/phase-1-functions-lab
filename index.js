@@ -11,7 +11,7 @@ function distanceFromHqInFeet(blocks) {
     if (distanceBlocks < 0) {
         return 42 - blocks
     }
-    return distanceFromHqInBlocks(blocks) * 264
+    return distanceBlocks * 264
 }
 function distanceTravelledInFeet(start, destination) {
     let travelDistance = destination - start
